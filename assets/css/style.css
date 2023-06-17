@@ -1,3 +1,7 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .navbar .nav-item {
   padding: 0px 25px;
 }
@@ -27,6 +31,7 @@
 .banner-section{
   position: relative;
   display: inline-block;
+  margin-bottom: -6px;
 }
 .banner-section img{
   width: 100%;
@@ -39,7 +44,7 @@
   top: 188px;
   left: 112px;
 }
-.banner-section .banner-text p {
+.banner-section .banner-text .banner-smallText {
   font-size: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -48,7 +53,9 @@
   font-family: "Poppins";
 }
 
-.banner-section .banner-text h1 {
+.banner-section .banner-text .largeText {
+  margin-top: 1rem;
+  margin-bottom: 1.6rem;
   font-size: 60px;
   letter-spacing: 3px;
   line-height: 65px;
@@ -56,36 +63,227 @@
   font-weight: 700;
   font-family: "Source Serif Pro";
 }
-.banner-section .banner-text h1 span{
+.banner-section .banner-text .largeText span {
   color: #27e9ff;
 }
-.banner-section .text-small-two {
-  opacity: 0.800;
+.banner-section .banner-text .banner-description {
+  opacity: 0.851;
+  width: 633px;
+  height: 88px;
   font-size: 16px;
-  line-height: 28px;
-  color: #fafafa;
-  font-weight: 400;
-  font-family: "Poppins";
-}
-.banner-section .text-big {
-  margin-top: 30px;
-  margin-bottom: 35px;
-  font-size: 79px;
-  line-height: 90px;
+  letter-spacing: 1px;
+  line-height: 32px;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Fredericka the Great";
+  font-family: "Poppins";
 }
 .banner-section .banner-button {
-  margin-top: 50px;
+  margin-top: 54px;
+ 
 }
 .banner-section .banner-button .button {
-  padding: 24px 40px;
-  border-radius: 2px;
-  background-color: #ffbc42;
+    padding: 20px 37px 21px;
+    border-radius: 12px;
+    background-color: #ed213f;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+
+.about-image-section {
+  padding: 0px;
+}
+
+.about-container {
+  padding-top: 100px;
+
+  padding-right: 124px;
+}
+.about-container .about-button {
+
+}
+.about-container .about-button .button {
+    padding: 22px 28px 21px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    border: 1px solid red;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #ff0000;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+.about-container .about-button .button:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+}
+.about-header {
+  font-size: 30px;
+  margin-bottom: 2.18rem;
+  letter-spacing: 2px;
+  line-height: 32px;
+  color: #17184a;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+}
+.about-description {
+  width: 461px;
+  height: 316px;
   font-size: 16px;
-  line-height: 14px;
-  color: #232323;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
   font-weight: 400;
   font-family: "Poppins";
+}
+.about-container .about-button {
+  margin-top: 54px;
+}
+.about-container .about-button {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ed213f;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+.activity-section {
+  background-color: #ed213f;
+  width: 100%;
+  height: auto;
+  padding-left: 113px;
+}
+.activity-header {
+  padding-top: 75px;
+  padding-bottom: 35px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+}
+.activity-description {
+  
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.activity-button {
+  padding-bottom: 80px;
+  padding-top: 34px;
+}
+.activity-button .button {
+  padding: 22px 28px 21px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+.activity-button .button:hover {
+  color: #ed213f;
+}
+.activityImage {
+  width: 455px;
+  height: 377px;
+}
+.activity-gradient-overlay {
+  position: absolute;
+  background-image: linear-gradient(180deg, rgba(23,24,74,0) 0%, rgba(23,24,74,0.8999999999999999) 100%);
+}
+
+.volunteer-section {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+.volunteer-section .volunteer-section-left {
+  background-color: #17184a;
+  padding-left: 41px;
+  padding-top: 74px;
+}
+
+.volunteer-header {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+  text-align: center;
+}
+.volunteer-description {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.volunteer-button .button {
+  padding: 15px 28px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+.volunteer-button .button:hover {
+  background-color: #ed213f;
+  color: #ffffff;
+}
+.service-text-section {
+  background-color: #25ab5c;
+  padding-top: 74px;
+  padding-left: 114px;
+}
+.service-header {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+}
+.service-description {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.service-button .button{
+  padding: 15px 28px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+.service-button .button:hover {
+  background-color: #ed213f;
+  color: #ffffff;
 }
