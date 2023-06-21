@@ -91,7 +91,7 @@ html, body {
  
 }
 .banner-section .banner-button .button {
-    padding: 20px 37px 21px;
+    padding: 20px 36px 20px;
     border-radius: 12px;
     background-color: #ed213f;
     font-size: 16px;
@@ -150,7 +150,7 @@ html, body {
 }
 
 .about-container .about-button .button {
-    padding: 19px 26px 19px;
+    padding: 19px 26px;
     border-radius: 12px;
     background-color: #ffffff;
     border: 1px solid red;
@@ -178,11 +178,11 @@ html, body {
 .activity-section {
   background-color: #ed213f;
   width: 100%;
-  max-height: auto;
+  height: auto;
   padding-left: 113px;
 }
 .activity-header {
-  padding-top: 75px;
+  padding-top: 72px;
   padding-bottom: 35px;
   font-size: 30px;
   letter-spacing: 2px;
@@ -205,7 +205,7 @@ html, body {
   padding-top: 34px;
 }
 .activity-button .button {
-  padding: 22px 28px 21px;
+  padding: 19px 26px;
   border-radius: 12px;
   background-color: #ffffff;
   font-size: 16px;
@@ -219,13 +219,48 @@ html, body {
 .activity-button .button:hover {
   color: #ed213f;
 }
+
+
 .activityImage {
-  width: 455px;
-  height: 377px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
 }
+
+.activityImage img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .activity-gradient-overlay {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-image: linear-gradient(180deg, rgba(23,24,74,0) 0%, rgba(23,24,74,0.8999999999999999) 100%);
+  z-index: 1;
+}
+
+
+.activity-caption {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+
+}
+.activity-caption p {
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+  text-align: center;
 }
 
 
@@ -239,6 +274,9 @@ html, body {
 .volunteer-section {
   margin-top: 160px;
   margin-bottom: 160px;
+}
+.volunteer-section img {
+  width: 100%;
 }
 .volunteer-section .volunteer-section-left {
   background-color: #17184a;
@@ -264,7 +302,7 @@ html, body {
   font-family: "Poppins";
 }
 .volunteer-button .button {
-  padding: 15px 28px;
+  padding: 19px 26px;
   border-radius: 12px;
   background-color: #ffffff;
   font-size: 16px;
@@ -310,7 +348,7 @@ html, body {
   font-family: "Poppins";
 }
 .service-button .button{
-  padding: 15px 28px;
+  padding: 19px 26px;
   border-radius: 12px;
   background-color: #ffffff;
   font-size: 16px;
@@ -325,6 +363,40 @@ html, body {
   color: #ff0000;
 }
 
+.serviceImage {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.service-gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, rgba(23,24,74,0) 0%, rgba(23,24,74,0.8999999999999999) 100%);
+  z-index: 1;
+}
+
+
+.service-caption {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.service-caption p {
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+  text-align: center;
+}
+
 /* Service Section End */
 
 /* ==============*****==================
@@ -332,28 +404,6 @@ html, body {
 
 /* Event Section Start */
 
-.event-buttons {
-  margin-top: 50px;
-}
-.event-buttons .margin-right{
-  margin-right: 25px;
-}
-.block-button {
-  border-radius: 2px;
-  color: #ffffff;
-  outline: 0;
-  display: inline-block;
-  font-size: 16px;
-  line-height: 14px;
-  text-align: center;
-  cursor: pointer;
-  font-weight: 400;
-  text-decoration: none;
-  font-family: "Poppins";
-  border: none;
-  padding: 2% 3%;
-  margin-bottom: 2.5%;
-  }
 
 .event-image-container {
   position: relative;
@@ -367,14 +417,7 @@ html, body {
   height: auto;
 }
 
-.event-overlay-image {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  max-width: 82%;
-  max-height: 100%;
-}
+
 .event-sub-header {
   font-size: 16px;
   letter-spacing: 1px;
@@ -427,10 +470,10 @@ html, body {
 }
 
 .event-button .button {
-  padding: 22px 28px 21px;
+  padding: 19px 26px ;
   border-radius: 12px;
   background-color: #ffffff;
-  border: 1px solid red;
+  border: 1px solid #ff0000;
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 32px;
@@ -440,10 +483,62 @@ html, body {
   text-decoration: none;
 }
 .event-button .button:hover {
-  color: #ff0000;
+  color: #ffffff;
+  background-color: #ff0000;
 
 }
 
+/* Count Section Start*/
+.count-image-section {
+  position: relative;
+}
+.count-image-text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  z-index: 2;
+}
+
+.count-number {
+  font-size: 50px;
+  letter-spacing: 3px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+ 
+}
+
+.count-text {
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+ 
+}
+
+.count-gradient-overlay {
+  position: absolute;
+  opacity: 0.588;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #17184a;
+  z-index: 1;
+
+}
+
+/* Count Section End*/
 
 /* Event Section End */
 
@@ -459,7 +554,9 @@ html, body {
 .scholarship-section .scholarship-section-left {
   background-color: #ed213f;
   padding-left: 38px;
-  padding-top: 73px;
+  padding-top: 55px;
+  width: 100%;
+  height: auto;
 }
 
 .scholarship-header {
@@ -472,6 +569,7 @@ html, body {
   text-align: center;
 }
 .scholarship-description {
+  padding-top: 24px;
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 32px;
@@ -480,7 +578,7 @@ html, body {
   font-family: "Poppins";
 }
 .scholarship-button .button {
-  padding: 15px 28px;
+  padding: 19px 26px;
   border-radius: 12px;
   background-color: #ffffff;
   font-size: 16px;
@@ -509,8 +607,10 @@ html, body {
   }
 }
 .testimonial-section {
-
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
 .testimonial-header {
   font-size: 30px;
   letter-spacing: 2px;
@@ -519,28 +619,31 @@ html, body {
   font-weight: 700;
   font-family: "Source Serif Pro";
 }
+
 .carousel-inner {
   height: 300px;
 }
 
 .slider-controls {
+  
   text-align: center;
-  
-  
+  margin-top: 20px;
 }
+
 
 .slider-controls .carousel-control-prev,
 .slider-controls .carousel-control-next {
-  margin-top: 145px;
-  display: block;
+  margin-top: 200px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
   color: #000000;
   border: 1px solid #ed213f;
   border-radius: 50%;
-  opacity: .8;
+  opacity: 0.8;
 }
-
 
 .slider-controls .carousel-control-prev:hover,
 .slider-controls .carousel-control-next:hover {
@@ -548,17 +651,43 @@ html, body {
   color: #ff0000;
 }
 
+
 .card {
-  margin-bottom: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0.039;
+  background-color: #2e3094;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Poppins";
 }
 
-.card-body {
-  padding: 20px;
+
+
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.card p {
-  margin-bottom: 1rem;
+.testimonial-author img {
+  margin-right: 10px;
+}
+
+.testimonial-author .author-info {
+  flex-grow: 1;
+}
+
+.testimonial-author p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.testimonial-author span {
+  font-size: 14px;
+  color: #888888;
 }
 
 
@@ -573,7 +702,85 @@ html, body {
 
 
 /* Footer Section End */
+.footer-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: #333333;
+}
 
+.footer-title {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.footer-title-two {
+  opacity: 0.502;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.contact-div h6 {
+  margin-bottom: 35px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.ml-60 {
+  margin-left: 60px;
+}
+
+.social-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.social-contact .col {
+  margin-right: 14px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.footer-column .flex-column .nav-link { 
+  text-align: left;
+  padding-left: 0 !important;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.footer-column .flex-column .nav-link:hover { 
+
+  color: #ff0101;
+
+}
+
+.copyright {
+  background-color: #000000;
+}
+
+.copyright p {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  opacity: 0.502;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
 
 /* MediaQuery Section */
 
@@ -588,10 +795,6 @@ html, body {
   .banner-section .banner-text .banner-smallText {
     font-size: 8px;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #27e9ff;
-    font-weight: 500;
-    font-family: "Poppins";
   }
   
   .banner-section .banner-text .largeText {
@@ -600,9 +803,6 @@ html, body {
     font-size: 16px;
     letter-spacing: 3px;
     line-height: 16px;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Source Serif Pro";
   }
   .banner-section .banner-text .largeText span {
     color: #27e9ff;
@@ -614,9 +814,6 @@ html, body {
     font-size: 8px;
     letter-spacing: 1px;
     line-height: 13px;
-    color: #ffffff;
-    font-weight: 400;
-    font-family: "Poppins";
   }
   .banner-section .banner-button {
     margin-top: 0 !important;
@@ -630,10 +827,6 @@ html, body {
       font-size: 8px;
       letter-spacing: 1px;
       line-height: 12px;
-      color: #ffffff;
-      font-weight: 500;
-      font-family: "Poppins";
-      text-decoration: none;
   }
 
   .activity-section {
@@ -644,8 +837,28 @@ html, body {
     text-align: center;
   }
 
+  .service-text-section {
+    padding: 45px;
+  }
+  .service-description {
+    padding-bottom: 15px;
+  }
 
 
+
+}
+
+@media screen and (max-width: 767px) {
+  .footer-section {
+    padding-left: 10%;
+  }
+
+  .service-text-section {
+    padding: 52px;
+  }
+  .service-description {
+    padding-bottom: 21px;
+  }
 }
 @media only screen and (max-width: 1002px) and (min-width: 877px){
  
@@ -698,6 +911,12 @@ html, body {
     width: 90%;
     
   }
+  .service-text-section {
+    padding: 60px;
+  }
+  .service-description {
+    padding-bottom: 21px;
+  }
   
 }
 
@@ -711,9 +930,6 @@ html, body {
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #27e9ff;
-    font-weight: 500;
-    font-family: "Poppins";
   }
   
   .banner-section .banner-text .largeText {
@@ -722,9 +938,6 @@ html, body {
     font-size: 24px;
     letter-spacing: 3px;
     line-height: 28px;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Source Serif Pro";
   }
   .banner-section .banner-text .largeText span {
     color: #27e9ff;
@@ -736,9 +949,6 @@ html, body {
     font-size: 10px;
     letter-spacing: 1px;
     line-height: 16px;
-    color: #ffffff;
-    font-weight: 400;
-    font-family: "Poppins";
   }
   .banner-section .banner-button {
     margin-top: 0 !important;
@@ -752,10 +962,6 @@ html, body {
       font-size: 10px;
       letter-spacing: 1px;
       line-height: 12px;
-      color: #ffffff;
-      font-weight: 500;
-      font-family: "Poppins";
-      text-decoration: none;
   }
   
 }
@@ -769,10 +975,6 @@ html, body {
   .banner-section .banner-text .banner-smallText {
     font-size: 14px;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #27e9ff;
-    font-weight: 500;
-    font-family: "Poppins";
   }
   
   .banner-section .banner-text .largeText {
@@ -781,9 +983,6 @@ html, body {
     font-size: 40px;
     letter-spacing: 3px;
     line-height: 48px;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Source Serif Pro";
   }
   .banner-section .banner-text .largeText span {
     color: #27e9ff;
@@ -795,9 +994,6 @@ html, body {
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 24px;
-    color: #ffffff;
-    font-weight: 400;
-    font-family: "Poppins";
   }
   .banner-section .banner-button {
     margin-top: 2rem;
@@ -811,14 +1007,43 @@ html, body {
       font-size: 14px;
       letter-spacing: 1px;
       line-height: 12px;
-      color: #ffffff;
-      font-weight: 500;
-      font-family: "Poppins";
-      text-decoration: none;
   }
 }
 
-/* MediaQuery For About Section */
+@media only screen and (max-width: 1105px) and (min-width: 992px) {
+
+  .event-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .event-description {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .event-section-header {
+    font-size: 26px;
+  }
+
+  .event-button {
+    margin-top: 32px;
+  }
+
+  .event-button .button {
+    padding: 15px 24px ;
+    font-size: 14px;
+  }
+
+  .service-text-section {
+    padding: 64px;
+  }
+  .service-description {
+    padding-bottom: 28px;
+  }
+
+}
+
+
+
 @media only screen and (max-width: 1292px) and (min-width: 992px) {
 
   .about-container {
@@ -835,23 +1060,150 @@ html, body {
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 30px;
-    color: #333333;
-    font-weight: 400;
-    font-family: "Poppins";
+
   }
   .about-container .about-button .button {
     padding: 16px 24px 16px;
     border-radius: 12px;
-    background-color: #ffffff;
-    border: 1px solid red;
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 24px;
-    color: #ff0000;
+
+  }
+
+  .scholarship-section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .scholarship-section .scholarship-section-left {
+    background-color: #ed213f;
+    padding-left: 18px;
+    padding-top: 28px;
+    padding-bottom: 32px;
+    width: 100%;
+  }
+
+  .scholarship-header {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+  }
+  .scholarship-description {
+    font-size: 13px;
+    padding-top: 6px;
+    letter-spacing: 1px;
+    line-height: 24px;
+  }
+  .scholarship-button .button {
+    padding: 12px 18px;
+    border-radius: 9px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 32px;
     font-weight: 500;
+  }
+
+
+  .volunteer-section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .volunteer-section img {
+    width: 100%;
+  }
+  .volunteer-section .volunteer-section-left {
+    background-color: #17184a;
+    padding-left: 15px;
+    padding-top: 30px;
+  }
+  
+  .volunteer-header {
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 26px;
+
+  }
+  .volunteer-description {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
     font-family: "Poppins";
+  }
+  .volunteer-button .button {
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 500;
     text-decoration: none;
+    font-family: "Poppins";
+  }
+
+  .activity-section {
+    width: 100%;
+    height: auto;
+    padding-left: 48px;
+  }
+  .activity-header {
+    padding-top: 45px;
+    padding-bottom: 15px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 28px;
+  
+  }
+  .activity-description {
+    width: 265px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 28px;
+
+  }
+  .activity-button {
+    padding-bottom: 35px;
+    padding-top: 20px;
+  }
+  .activity-button .button {
+    padding: 15px 24px 15px;
+    border-radius: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+  }
+
 }
+
+@media only screen and (max-width: 1350px) and (min-width: 1293px) {
+  .activity-section {
+    width: 100%;
+    height: auto;
+    padding-left: 80px;
+  }
+  .activity-header {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 32px;
+  
+  }
+  .activity-description {
+    width: 320px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 32px;
+
+  }
+  .activity-button {
+    padding-bottom: 60px;
+    padding-top: 34px;
+  }
+
 
 }
 
