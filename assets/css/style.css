@@ -18,6 +18,8 @@ html, body {
 }
 .navbar .nav-item.donate-item {
   text-align: center;
+  vertical-align: middle;
+  
 }
 
 .navbar .nav-link.donate-link {
@@ -607,8 +609,8 @@ html, body {
   }
 }
 .testimonial-section {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 185px;
+  margin-bottom: 185px;
 }
 
 .testimonial-header {
@@ -620,15 +622,7 @@ html, body {
   font-family: "Source Serif Pro";
 }
 
-.carousel-inner {
-  height: 300px;
-}
 
-.slider-controls {
-  
-  text-align: center;
-  margin-top: 20px;
-}
 
 
 .slider-controls .carousel-control-prev,
@@ -652,9 +646,23 @@ html, body {
 }
 
 
-.card {
-  opacity: 0.039;
-  background-color: #2e3094;
+.testimonial-card-column .card {
+  background-color: rgba(46, 48, 148, 0.039); /* Use the rgba format with the desired alpha value */
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: 400;
+  border: none;
+  font-family: "Poppins";
+  height: auto;
+}
+.testimonial-card-body {
+  padding-top: 27px;
+  padding-left: 27px;
+}
+
+.testimonial-card-des {
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 32px;
@@ -663,9 +671,6 @@ html, body {
   font-family: "Poppins";
 }
 
-
-
-
 .testimonial-author {
   display: flex;
   align-items: center;
@@ -673,7 +678,7 @@ html, body {
 }
 
 .testimonial-author img {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .testimonial-author .author-info {
@@ -683,6 +688,14 @@ html, body {
 .testimonial-author p {
   margin-bottom: 5px;
   font-weight: bold;
+}
+.author-info .author-name {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #2e3094;
+  font-weight: 600;
+  font-family: "Poppins";
 }
 
 .testimonial-author span {
@@ -845,7 +858,29 @@ html, body {
   }
 
 
+}
 
+@media screen and (max-width: 576px) {
+  .count-image-text {
+    position: absolute;
+    top: 60%;
+    font-size: 8px;
+ 
+  }
+  
+  .count-number {
+    font-size: 24px;
+    letter-spacing: 3px;
+    line-height: 16px;
+   
+  }
+  
+  .count-text {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 12px;
+   
+  }
 }
 
 @media screen and (max-width: 767px) {
