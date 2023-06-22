@@ -5,6 +5,9 @@ html, body {
 .padding-0 {
   padding: 0 !important;
 }
+.full-width {
+  width: 100%;
+}
 
 /* Navbar Section Start */
 .navbar .nav-item {
@@ -883,6 +886,35 @@ html, body {
   }
 }
 
+@media screen and (max-width: 991px) {
+  .volunteer-section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .volunteer-section .volunteer-section-left {
+    background-color: #17184a;
+    padding-left: 33px;
+    padding-top: 30px;
+  }
+  
+  .volunteer-header {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 24px;
+
+  }
+  .volunteer-description {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+  }
+  .volunteer-button .button {
+    padding: 9px 18px;
+    border-radius: 7px;
+    
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer-section {
     padding-left: 10%;
@@ -952,6 +984,9 @@ html, body {
   .service-description {
     padding-bottom: 21px;
   }
+
+
+  
   
 }
 
@@ -998,6 +1033,7 @@ html, body {
       letter-spacing: 1px;
       line-height: 12px;
   }
+
   
 }
 
@@ -1142,9 +1178,6 @@ html, body {
   .volunteer-section {
     margin-top: 120px;
     margin-bottom: 120px;
-  }
-  .volunteer-section img {
-    width: 100%;
   }
   .volunteer-section .volunteer-section-left {
     background-color: #17184a;
