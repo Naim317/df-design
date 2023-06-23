@@ -886,34 +886,7 @@ html, body {
   }
 }
 
-@media screen and (max-width: 991px) {
-  .volunteer-section {
-    margin-top: 120px;
-    margin-bottom: 120px;
-  }
-  .volunteer-section .volunteer-section-left {
-    background-color: #17184a;
-    padding-left: 33px;
-    padding-top: 30px;
-  }
-  
-  .volunteer-header {
-    font-size: 22px;
-    letter-spacing: 2px;
-    line-height: 24px;
 
-  }
-  .volunteer-description {
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 22px;
-  }
-  .volunteer-button .button {
-    padding: 9px 18px;
-    border-radius: 7px;
-    
-  }
-}
 
 @media screen and (max-width: 767px) {
   .footer-section {
@@ -985,8 +958,6 @@ html, body {
     padding-bottom: 21px;
   }
 
-
-  
   
 }
 
@@ -1113,6 +1084,77 @@ html, body {
 
 }
 
+@media only screen and (max-width: 991px) and (min-width: 280px) {
+
+  .scholarship-section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .scholarship-section .scholarship-section-left {
+    background-color: #ed213f;
+    padding-left: 18px;
+    padding-top: 28px;
+    padding-bottom: 32px;
+    width: 100%;
+  }
+
+  .scholarship-header {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+  }
+  .scholarship-description {
+    font-size: 13px;
+    padding-top: 6px;
+    letter-spacing: 1px;
+    line-height: 24px;
+  }
+  .scholarship-button .button {
+    padding: 12px 18px;
+    border-radius: 9px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    font-weight: 500;
+  }
+
+
+  .volunteer-section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .volunteer-section .volunteer-section-left {
+    background-color: #17184a;
+    padding-top: 30px;
+  }
+  
+  .volunteer-header {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 26px;
+
+  }
+  .volunteer-description {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+  }
+  .volunteer-button {
+    margin-bottom: 1rem;
+  }
+  .volunteer-button .button {
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+  }
+}
+
 
 
 @media only screen and (max-width: 1292px) and (min-width: 992px) {
@@ -1181,7 +1223,6 @@ html, body {
   }
   .volunteer-section .volunteer-section-left {
     background-color: #17184a;
-    padding-left: 15px;
     padding-top: 30px;
   }
   
@@ -1204,12 +1245,7 @@ html, body {
     border-radius: 10px;
     background-color: #ffffff;
     font-size: 12px;
-    letter-spacing: 1px;
-    line-height: 32px;
-    color: #333333;
-    font-weight: 500;
-    text-decoration: none;
-    font-family: "Poppins";
+
   }
 
   .activity-section {
