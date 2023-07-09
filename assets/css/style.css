@@ -2,23 +2,21 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+p-0 {
+  padding: 0 !important;
+}
+
+
 .navbar-nav {
   --bs-nav-link-padding-x: initial;
   --bs-nav-link-padding-y: initial;
-}
-
-.navbar-expand-lg {
-  padding: 0px 113px;
-  height: 70px;
 }
 
 .donate-item {
   padding: 29px 38px 28px 40px;
   background-color: #ed213f;
 }
-.nav-item {
-  padding: 29px 25px 28px 25px;
-}
+
 .nav-item .nav-link {
   font-size: 16px;
   color: #333333;
@@ -176,3 +174,678 @@ html, body {
 
 
 /* About Section End */
+
+/* ==============*****==================
+=================*****=============== */
+
+
+/* Activity Section Start */
+
+.activity-section {
+  margin-top: -1px;
+}
+.activity-section-left{
+  background-color: #ed213f;
+  height: auto;
+  padding: 74px 50px 0px 100px;
+}
+
+.activity-header {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+}
+
+.activity-description {
+  margin-top: 43px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.activity-button {
+  padding-top: 34px;
+}
+
+.activity-button .button {
+  padding: 19px 26px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+.activity-button .button:hover {
+  color: #ed213f;
+  transition: 0.3s;
+}
+
+.activityImage {
+  position: relative;
+  display: inline-block;
+}
+
+.activityImage img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.activity-gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, rgba(23, 24, 74, 0) 0%, rgba(23, 24, 74, 0.8999999999999999) 100%);
+  z-index: 1;
+}
+
+.activity-caption {
+  position: absolute;
+  text-align: center;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.activity-caption-one {
+  position: absolute;
+  text-align: center;
+  top: 85%;
+  left: 45%;
+  transform: translate(-40%, -50%);
+  z-index: 2;
+}
+
+.activity-caption-two {
+  position: absolute;
+  text-align: center;
+  top: 85%;
+  left: 20%;
+  transform: translate(-10%, -50%);
+  z-index: 2;
+}
+
+.activity-caption-text {
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+  text-align: center;
+}
+
+/* Activity Section End */
+
+/* ==============*****==================
+=================*****=============== */
+
+
+/* Volunteer Section End */
+
+.volunteer-section {
+  padding: 160px 112px;
+}
+
+.volunteer-section .volunteer-section-left {
+  background-color: #17184a;
+  padding: 74px 36px 0px 36px;
+  height: auto;
+}
+
+.volunteer-header {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+  text-align: left;
+}
+
+.volunteer-description {
+  margin-top: 43px;
+  margin-bottom: 45px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.volunteer-button .button {
+  padding: 20px 25px 17px 26px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+.volunteer-button .button:hover {
+  color: #ed213f;
+  transition: 0.3s;
+}
+
+
+
+/* Volunteer Section End */
+
+
+/* ==============*****==================
+=================*****=============== */
+
+/* Service Section Start */
+
+.service-text-section {
+  background-color: #25ab5c;
+  padding: 74px 50px 58px 112px;
+}
+
+.service-header {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+}
+
+.service-description {
+  margin-top: 43px;
+  margin-bottom: 42px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.service-button .button {
+  padding: 21px 26px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+.service-button .button:hover {
+  color: #ed213f;
+  transition: 0.3s;
+}
+
+.serviceImage {
+  position: relative;
+  display: inline-block;
+
+}
+.serviceImage img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.service-gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, rgba(23, 24, 74, 0) 0%, rgba(23, 24, 74, 0.8999999999999999) 100%);
+  z-index: 1;
+}
+
+.service-caption {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.service-caption-two {
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  transform: translate(-10%, -50%);
+  z-index: 3;
+}
+
+.service-caption-text {
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+  text-align: center;
+}
+
+
+/* Service Section End */
+
+
+/* ==============*****==================
+=================*****=============== */
+
+/* Event Section Start */
+
+.event-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.event-image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.event-content {
+  padding: 123px 62px 0px 113px;
+}
+
+.event-sub-header { 
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ed213f;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+.event-section-header {
+  width: 75%;
+  margin-top: 34px;
+  margin-bottom: 35px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 32px;
+  color: #17184a;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+}
+
+
+.event-description {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+
+
+.event-shedule {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-shedule-inner {
+  font-size: 16px;
+  line-height: 28px;
+  color: #232323;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+.event-button {
+  margin-top: 45px;
+}
+
+.event-button .button {
+  padding: 21px 26px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: 1px solid #ed213f;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ed213f;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+
+.event-button .button:hover {
+  color: #ffffff;
+  background-color: #ed213f;
+  transition: 0.3s;
+}
+/* Event Section end */
+
+/* ==============*****==================
+=================*****=============== */
+
+/* Count Section Start*/
+
+.count-image-section {
+  position: relative;
+}
+
+.count-image-text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  z-index: 2;
+}
+
+.count-number {
+  font-size: 50px;
+  letter-spacing: 3px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+}
+
+.count-text {
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+}
+
+.count-gradient-overlay {
+  position: absolute;
+  opacity: 0.588;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #17184a;
+  z-index: 1;
+}
+
+/* Count Section End*/
+
+/* ==============*****==================
+=================*****=============== */
+
+
+/* Scholarship Section Start */
+
+.scholarship-section {
+  padding: 160px 112px;
+}
+
+.scholarship-section .scholarship-section-left {
+  background-color: #ed213f;
+  padding: 74px 36px 0px 36px;
+  height: auto;
+}
+
+.scholarship-header {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+}
+
+.scholarship-description {
+  margin-top: 28px;
+  margin-bottom: 45px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.scholarship-button .button {
+  padding: 21px 26px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #000000;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+.scholarship-button .button:hover {
+  color: #ed213f;
+  transition: 0.3s;
+}
+
+
+/* Scholarship Section End */
+
+
+/* ==============*****==================
+=================*****=============== */
+
+/* Testimonial Section Start */
+
+.testimonial-slider {
+  padding: 0px 100px 185px;
+}
+.testimonial-title {
+  margin-top: 120px;
+}
+
+.testimonial-title h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 32px;
+  color: #17184a;
+  font-weight: 700;
+  font-family: "Source Serif Pro";
+}
+.testimonial-section .card {
+  margin: 0px 24px;
+  background-color: rgba(46, 48, 148, 0.039);
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: 400;
+  border: none;
+  font-family: "Poppins";
+  height: auto;
+}
+.testimonial-card-body {
+  padding-top: 27px;
+  padding-left: 27px;
+}
+
+.testimonial-card-des {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.testimonial-author img {
+  margin-right: 20px;
+}
+
+.testimonial-author .author-info {
+  flex-grow: 1;
+}
+
+.testimonial-author p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.author-info .author-name {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 32px;
+  color: #2e3094;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.testimonial-author span {
+  font-size: 14px;
+  color: #888888;
+}
+.testimonial-section .carousel-control-prev,
+.testimonial-section .carousel-control-next {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  border: 2px solid #9b9b9b;
+}
+
+.testimonial-section .carousel-control-prev:hover,
+.testimonial-section .carousel-control-next:hover {
+  border: 2px solid #ed213f;
+  transition: 0.3s;
+  
+}
+
+/* Testimonial Section End */
+
+
+/* ==============*****==================
+=================*****=============== */
+
+
+/* Footer Section Start */
+
+
+.footer-section {
+  padding: 95px 114px 79px;
+  background: #333333;
+}
+
+.footer-title {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.footer-title-two {
+  opacity: 0.502;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mb-38 {
+  margin-bottom: 38px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+
+
+.contact-div h6 {
+  margin-bottom: 35px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.social-contact {
+  vertical-align: middle;
+}
+
+.social-contact .col-md-3 {
+  margin-right: 14px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column .flex-column .footer-link {
+  text-align: left;
+  padding-left: 0 !important;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+
+.footer-column .flex-column .footer-link:hover {
+  color: #ed213f;
+  transition: 0.3s;
+}
+
+.copyright {
+  background-color: #000000;
+}
+
+.copyright p {
+  padding: 44px 0px;
+  text-align: center;
+  opacity: 0.502;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+/* Footer Section End */

@@ -1,0 +1,50 @@
+@media (min-width: 992px) {
+
+    /* ForNavbarSection */
+    .navbar-expand-lg {
+        padding: 0px 113px;
+    } 
+    .nav-item {
+      padding: 29px 25px 28px 25px;
+    }
+}
+
+@media (max-width: 992px) {
+  .nav-item {
+    padding: 10px 0px;
+  }
+
+  .donate-item .nav-link {
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+    /* ForTestimonialSection */
+    .testimonial-section .carousel-item {
+      margin-right: 0;
+      flex: 0 0 50%;
+      display: block;
+    }
+    .testimonial-section .carousel-inner {
+      display: flex;
+    }
+  }
+  @media (min-width: 768px) {
+    /* ForTestimonialSection */
+    .testimonial-section .carousel-inner {
+      padding: 1em;
+    }
+    .testimonial-section .carousel-control-prev,
+    .testimonial-section .carousel-control-next {
+      width: 3em;
+      height: 3em;
+      position: absolute;
+      left: 1em;
+      top: 60%;
+      opacity: 1;
+    }
+    .testimonial-section .carousel-control-next {
+      left: 4.5em;
+    }
+  }

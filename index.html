@@ -7,14 +7,15 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <title>Document</title>
 </head>
 <body>
 
 
-<nav class="navbar navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand d-flex" href="#">
         <img src="assets/images/logo.png" alt="Logo Image">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,26 +46,9 @@
     </div>
   </nav>
 
-  <!-- Banner Section Start -->
-  <!-- <section class="banner-section">
-    <img src="assets/images/bannerImage.png" class="img-fluid" alt="BannerImage">
-    <div class="topBanner">
-    </div>
-    <div class="row">
-        <div class="banner-text col-md-9">
-            <p class="banner-sub-header">Daffodil Foundation</p>
-            <h1 class="banner-header">Stand up for the <span>Deprived</span></h1>
-            <p class="banner-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
-            <div class="banner-button">
-                <a href="#" class="button">Join Us</a>
-            </div>
-        </div>
-    </div>
-  </section> -->
-  <!-- Banner Section Start -->
 
   <!-- Banner Section Start -->
-  <section class="banner-section">
+  <section id="banner-section" class="banner-section">
     <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
       
       <div class="carousel-inner">
@@ -125,10 +109,10 @@
   <!-- Banner Section End -->
 
   <!-- About Section Start -->
-  <section class="about-section">
+  <section id="about-section" class="about-section">
     <div class="row">
-        <div class="col-lg-6 ">
-            <div class="about-image-section">
+        <div class="col-lg-6">
+            <div class="about-image-section p-0">
                 <img src="assets/images/aboutImage1.png" alt="About Section Image">
             </div>
         </div>
@@ -145,10 +129,385 @@
   </section>
   <!-- About Section End -->
 
+  <!-- Activities Section Start -->
+  <section id="activity-section" class="activity-section">
+    <div class="row">
+      <div class="col-lg-4 activity-section-left">
+          <span class="activity-header">Our Activities</span>
+          <p class="activity-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+              no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</p>
+          <div class="activity-button">
+              <a href="#" class="button">Learn More</a>
+          </div>
+      </div>
+      <div class="col-lg-8">
+          <div class="row">
+              <div class="col-md-6 activityImage p-0">
+                  <img src="assets/images/activities/activity1.png" alt="ActivityImage">
+                  <div class="activity-gradient-overlay"></div>
+                  <div class="activity-caption-one">
+                      <p class="activity-caption-text">Micro Credit Program</p>
+                  </div>
+              </div>
+
+
+              <div class="col-md-6 activityImage p-0">
+                  <img src="assets/images/activities/activity2.png" alt="ActivityImage">
+                  <div class="activity-gradient-overlay"></div>
+                  <div class="activity-caption">
+                      <p class="activity-caption-text">Education Program</p>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6 activityImage p-0">
+                  <img src="assets/images/activities/activity3.png" alt="ActivityImage">
+                  <div class="activity-gradient-overlay"></div>
+                  <div class="activity-caption-two">
+                      <p class="activity-caption-text">Younus Khan Health Center</p>
+                  </div>
+              </div>
+
+              <div class="col-md-6 activityImage p-0">
+                  <img src="assets/images/activities/activity4.png" alt="ActivityImage">
+                  <div class="activity-gradient-overlay"></div>
+                  <div class="activity-caption">
+                      <p class="activity-caption-text">Food Aid</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities Section End -->
+
+
+   <!-- Volunteer Section Start -->
+  <section id="volunteer-section" class="volunteer-section">
+      <div class="row">
+          <div class="col-lg-6 volunteer-section-left">
+              <span class="volunteer-header text-left">Become A Volunteer</span>
+              <p class="volunteer-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+              <div class="volunteer-button">
+                  <a href="#" class="button">Join Today</a>
+              </div>
+          </div>
+
+          <div class="col-lg-6 p-0 volunteer-section-right">
+              <img src="assets/images/volunteerImage.png" class="img-fluid" alt="">
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- Volunteer Section End -->
+
+  <!-- Service Section Start -->
+  <section id="service-section" class="service-section">
+    <div class="row">
+        <div class="col-lg-8 service-text-section">
+            <span class="service-header">Our Service</span>
+            <p class="service-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+            <div class="service-button">
+                <a href="#" class="button">Learn More</a>
+            </div>
+        </div>
+        <div class="col-lg-4 serviceImage p-0">
+            <img src="assets/images/services/service1.png" class="img-fluid serviceImage" alt="Service Image">
+            <div class="service-gradient-overlay"></div>
+            <div class="service-caption">
+                <p class="service-caption-text">Jeebeka Project</p>
+            </div>
+        </div>
+        <div class="col-md-4 serviceImage p-0">
+            <img src="assets/images/services/service2.png" class="img-fluid serviceImage" alt="Service Image">
+            <div class="service-gradient-overlay"></div>
+            <div class="service-caption">
+                <p class="service-caption-text">Education</p>
+            </div>
+        </div>
+        <div class="col-md-4 serviceImage p-0">
+            <img src="assets/images/services/service3.png" class="img-fluid serviceImage" alt="Service Image">
+            <div class="service-gradient-overlay"></div>
+            <div class="service-caption">
+                <p class="service-caption-text">Social Awareness</p>
+            </div>
+        </div>
+        <div class="col-md-4 serviceImage p-0">
+            <img src="assets/images/services/service4.png" class="img-fluid serviceImage" alt="Service Image">
+            <div class="service-gradient-overlay"></div>
+            <div class="service-caption">
+                <p class="service-caption-text">Medical Support</p>
+            </div>
+        </div>
+        <div class="col-md-4 serviceImage p-0">
+            <img src="assets/images/services/service5.png" class="img-fluid serviceImage" alt="Service Image">
+            <div class="service-gradient-overlay"></div>
+            <div class="service-caption">
+                <p class="service-caption-text">Food</p>
+            </div>
+        </div>
+        <div class="col-md-4 serviceImage p-0">
+            <img src="assets/images/services/service6.png" class="img-fluid serviceImage" alt="Service Image">
+            <div class="service-gradient-overlay"></div>
+            <div class="service-caption">
+                <p class="service-caption-text">Health & Hygine</p>
+            </div>
+        </div>
+        <div class="col-md-4 serviceImage p-0">
+            <img src="assets/images/services/service7.png" class="img-fluid serviceImage" alt="Service Image">
+            <div class="service-gradient-overlay"></div>
+            <div class="service-caption-two">
+                <p class="service-caption-text">Human Resource Development</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Service Section Start -->
+
+  <!-- Start event Section -->
+  <section id="event-section" class="event-section">
+    <div class="row">
+        <div class="col-lg-6 p-0">
+          <div class="event-content">
+              <span class="event-sub-header">Upcoming Event</span>
+              <h2 class="event-section-header">Jeebeka Project Opening from November 2023</h2>
+              <p class="event-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+              <div class="event-shedule">
+                  <p class="event-shedule-inner"><img src="assets/images/icons/calendar.png" alt="Calendar Icon">&nbsp; 22-11-2023</p>
+                  <p class="event-shedule-inner"><img src="assets/images/icons/clock.png" alt="Clock Icon">&nbsp; 11:00 AM - 5:00 PM</p>
+              </div>
+              <div class="event-button">
+                  <a href="#" class="button">Learn More</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-0">
+            <div class="event-image-container">
+                <img src="assets/images/eventImage.png" class="img-fluid" alt="Event Image">
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- End event Section -->
+
+
+  <!-- Count Section Start -->
+  <section id="count-section" class="count-section">
+    <div class="count-image-section">
+        <img src="assets/images/countSectionImage.png" class="img-fluid" alt="Count Section BgImage">
+        <div class="count-gradient-overlay"></div>
+        <div class="row count-image-text text-center">
+            <div class="col">
+                <p class="count-number">04</p>
+                <p class="count-text">Projects</p>
+            </div>
+            <div class="col">
+                <p class="count-number">2000</p>
+                <p class="count-text">Beneficeries</p>
+            </div>
+            <div class="col">
+                <p class="count-number">60</p>
+                <p class="count-text">Feilds</p>
+            </div>
+            <div class="col">
+                <p class="count-number">121</p>
+                <p class="count-text">Scholarship</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Count Section End -->
+
+  <!-- Scholarship Section Start -->
+  <section class="scholarship-section">
+    <div class="row">
+        <div class="col-lg-6 scholarship-section-left">
+            <h2 class="scholarship-header text-left">Apply for Scholarships</h2>
+            <p class="scholarship-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+            <div class="scholarship-button mt-3">
+                <a href="#" class="button">Apply Now</a>
+            </div>
+        </div>
+
+        <div class="col-lg-6 p-0 scholarship-section-right">
+            <img src="assets/images/scholarshipImage.png" class="img-fluid" alt="Scholarship Image">
+        </div>
+    </div>
+  </section>
+  <!-- Scholarship Section End -->
+
+  <!-- Testimonial Section Start -->
+  <section id="testimonial-section" class="testimonial-section">
+      <div class="testimonial-slider">
+        <div id="carouselExampleControls" class="carousel carousel-dark" data-bs-ride="carousel">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimonial-title">
+                            <h2 class="fw-bold display-6">What People Say About Us</h2>
+                        </div>
+
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                       
+                    </div>
+                    <div class="col-md-8">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card">
+                                  <div class="card-body testimonial-card-body">
+                                    <p class="testimonial-card-des">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                                    <div class="testimonial-author">
+                                        <img src="assets/images/John.png" alt="Testimonial Author Image">
+                                        <div class="author-info">
+                                            <p class="author-name">John Doe</p>
+                                            <span>Director, DISS</span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item active">
+                              <div class="card">
+                                <div class="card-body testimonial-card-body">
+                                  <p class="testimonial-card-des">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                                  <div class="testimonial-author">
+                                      <img src="assets/images/Doe.png" alt="Testimonial Author Image">
+                                      <div class="author-info">
+                                          <p class="author-name">John Doe</p>
+                                          <span>Director, DISS</span>
+                                      </div>
+                                  </div>
+                                </div> 
+                              </div>
+                          </div>
+                          <div class="carousel-item active">
+                            <div class="card">
+                              <div class="card-body testimonial-card-body">
+                                <p class="testimonial-card-des">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                                <div class="testimonial-author">
+                                    <img src="assets/images/John.png" alt="Testimonial Author Image">
+                                    <div class="author-info">
+                                        <p class="author-name">John Doe</p>
+                                        <span>Director, DISS</span>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <!-- Testimonial Section End -->
+
+
+  <!-- Footer Section Start -->
+  <section>
+    <footer>
+        <div class="footer-section">
+          <div class="row">
+              <div class="col-md-5 footer-column">
+                  <ul class="flex-column">
+                      <li class="mb-60 ">
+                          <span class="footer-title">Daffodil Foundation</span>
+                      </li>
+                      <li class="footer-item mb-38">
+                          <a class="footer-link" href="#"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp; 102/1 Shukrabad, Dhaka</a>
+                      </li>
+                      <li class="footer-item mb-38">
+                          <a class="footer-link" href="#"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp; +8801847-140059</a>
+                      </li>
+                      <li class="footer-item mb-60">
+                          <a class="footer-link" href="#"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp; info@daffodilfoundation.org</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-md-4 footer-column">
+                  <ul class="flex-column">
+                      <li class="mb-60">
+                          <span class="footer-title-two">Important Links</span>
+                      </li>
+                      <li class="footer-item mb-25">
+                          <a class="footer-link" href="#">Message from CM</a>
+                      </li>
+                      <li class="footer-item mb-25">
+                          <a class="footer-link" href="#">Success Stories</a>
+                      </li>
+                      <li class="footer-item mb-25">
+                          <a class="footer-link" href="#">News</a>
+                      </li>
+                      <li class="footer-item mb-25">
+                          <a class="footer-link" href="#">Events</a>
+                      </li>
+                      <li class="footer-item mb-25">
+                          <a class="footer-link" href="#">Gallery</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-md-3 footer-column">
+                  <ul class="flex-column">
+                      <li class="mb-60">
+                          <span class="footer-title-two">Important Links</span>
+                      </li>
+                      <li class="footer-item mb-25">
+                          <a class="footer-link" href="#">Contact</a>
+                      </li>
+                      <li class="footer-item mb-25">
+                          <a class="footer-link" href="#">FAQ</a>
+                      </li>
+                      <li class="footer-item mb-25">
+                          <a class="footer-link" href="#">Our Team</a>
+                      </li>
+                      <li class="footer-item mb-25">
+                          <a class="footer-link" href="#">Become a Volunteer</a>
+                      </li>
+                      <li class="footer-item mb-25">
+                          <a class="footer-link" href="#">Policies</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 contact-div">
+                  <h6>Contact with us</h6>
+                  <div class="row social-contact ms-1">
+                      <div class="col-md-3">
+                          <a href="#"><img src="assets/images/icons/facebook.png" alt="Social Media Icon"></a>
+                      </div>
+                      <div class="col-md-3">
+                          <a href="#"><img src="assets/images/icons/youtube.png" alt="Social Media Icon"></a>
+                      </div>
+                      <div class="col-md-3">
+                          <a href="#"><img src="assets/images/icons/whatsapp.png" alt="Social Media Icon"></a>
+                      </div>
+                      <div class="col-md-3">
+                          <a href="#"><img src="assets/images/icons/instagram.png" alt="Social Media Icon"></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>Copyright@DaffodilFoundation_2023</p>
+    </div>
+  </section>
+<!-- Footer Section End -->
+
   
     
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/app.js"></script>
 
