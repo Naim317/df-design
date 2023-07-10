@@ -6,14 +6,13 @@ p-0 {
   padding: 0 !important;
 }
 
-
 .navbar-nav {
   --bs-nav-link-padding-x: initial;
   --bs-nav-link-padding-y: initial;
 }
 
 .donate-item {
-  padding: 29px 38px 28px 40px;
+  padding: 23px 38px;
   background-color: #ed213f;
 }
 
@@ -86,7 +85,7 @@ p-0 {
 .banner-section .banner-text .banner-description {
   opacity: 0.851;
   width: 633px;
-  height: 88px;
+  /* height: 88px; */
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 32px;
@@ -130,7 +129,7 @@ p-0 {
 }
 
 .about-container {
-  padding: 99px 50px;
+  padding: 99px 50px 0px 50px;
   height: auto;
 }
 
@@ -164,6 +163,7 @@ p-0 {
     font-weight: 500;
     font-family: "Poppins";
     text-decoration: none;
+    display: inline-block;
 }
 
 .about-container .about-button .button:hover {
@@ -306,6 +306,11 @@ p-0 {
   height: auto;
 }
 
+.volunteer-section-right img {
+  width: 100%;
+  height: 100%;
+}
+
 .volunteer-header {
   font-size: 30px;
   letter-spacing: 2px;
@@ -338,6 +343,7 @@ p-0 {
   font-weight: 500;
   text-decoration: none;
   font-family: "Poppins";
+  margin-bottom: 2rem;
 }
 
 .volunteer-button .button:hover {
@@ -357,7 +363,7 @@ p-0 {
 
 .service-text-section {
   background-color: #25ab5c;
-  padding: 74px 50px 58px 112px;
+  padding: 74px 50px 0px 112px;
 }
 
 .service-header {
@@ -371,7 +377,7 @@ p-0 {
 
 .service-description {
   margin-top: 43px;
-  margin-bottom: 42px;
+  margin-bottom: 24px;
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 32px;
@@ -505,6 +511,7 @@ p-0 {
 
 
 .event-shedule {
+  margin-bottom: 45px;
   width: 75%;
   display: flex;
   justify-content: space-between;
@@ -518,9 +525,7 @@ p-0 {
   font-family: "Poppins";
 }
 
-.event-button {
-  margin-top: 45px;
-}
+
 
 .event-button .button {
   padding: 21px 26px;
@@ -611,6 +616,11 @@ p-0 {
   background-color: #ed213f;
   padding: 74px 36px 0px 36px;
   height: auto;
+}
+
+.scholarship-section-right img {
+  width: 100%;
+  height: 100%;
 }
 
 .scholarship-header {
@@ -789,8 +799,13 @@ p-0 {
 .mb-25 {
   margin-bottom: 25px;
 }
+ .mt-60 {
+  margin-top: 60px;
+ }
 
-
+.contact-div {
+  padding-left: 2.5rem;
+}
 
 .contact-div h6 {
   margin-bottom: 35px;
@@ -802,6 +817,14 @@ p-0 {
 
 .social-contact {
   vertical-align: middle;
+}
+.social-contact .fa-brands {
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.social-contact .fa-brands:hover {
+  color: #ed213f;
 }
 
 .social-contact .col-md-3 {
