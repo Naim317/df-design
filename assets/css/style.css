@@ -863,6 +863,7 @@ p-0 {
 
 .copyright p {
   padding: 44px 0px;
+  margin-bottom: 0px !important;
   text-align: center;
   opacity: 0.502;
   font-size: 16px;
