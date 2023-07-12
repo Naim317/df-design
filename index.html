@@ -6,8 +6,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Source+Serif+Pro&display=swap">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <style>
+        
+    </style>
+
     <title>Document</title>
 </head>
 <body>
@@ -47,65 +53,71 @@
   </nav>
 
 
-  <!-- Banner Section Start -->
-  <section id="banner-section" class="banner-section">
-    <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
-      
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/images/bannerImage.png" class="img-fluid" alt="BannerImage">
-          <div class="topBanner"></div>
-          <div class="row">
-            <div class="banner-text col-md-9">
-              <p class="banner-sub-header">Daffodil Foundation</p>
-              <h1 class="banner-header">Stand up for the <span>Deprived</span></h1>
-              <p class="banner-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
-              <div class="banner-button">
-                <a href="#" class="button d-inline-block">Join Us</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/images/bannerImage.png" class="img-fluid" alt="BannerImage">
-          <div class="topBanner"></div>
-          <div class="row">
-            <div class="banner-text col-md-9">
-              <p class="banner-sub-header">Daffodil Foundation</p>
-              <h1 class="banner-header">Stand up for the <span>Deprived</span></h1>
-              <p class="banner-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
-              <div class="banner-button">
-                <a href="#" class="button d-inline-block">Join Us</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/images/bannerImage.png" class="img-fluid" alt="BannerImage">
-          <div class="topBanner"></div>
-          <div class="row">
-            <div class="banner-text col-md-9">
-              <p class="banner-sub-header">Daffodil Foundation</p>
-              <h1 class="banner-header">Stand up for the <span>Deprived</span></h1>
-              <p class="banner-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
-              <div class="banner-button">
-                <a href="#" class="button d-inline-block">Join Us</a>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <!-- Add more carousel items  if needed -->
+  <!-- <div id="slider" class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="assets/images/bannerImage.png" alt="Image 1" />
       </div>
-      <!-- For Indicators -->
-      <ol class="carousel-indicators">
-        <li data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active">•</li>
-        <li data-bs-target="#bannerCarousel" data-bs-slide-to="1">•</li>
-        <li data-bs-target="#bannerCarousel" data-bs-slide-to="2">•</li>
-        <!-- Add more li elements if needed -->
-      </ol>
+      <div class="swiper-slide">
+        <img src="assets/images/bannerImage - Copy - Copy.png" alt="Image 2" />
+      </div>
+      <div class="swiper-slide">
+        <img src="assets/images/bannerImage - Copy.png" alt="Image 3" />
+      </div>
+      
     </div>
-  </section>
+    <div class="swiper-pagination"></div>
+  </div> -->
+  <!-- Banner Section Start -->
+    <div id="slider" class="swiper-container">
+      
+      <div class="swiper-wrapper">
+        <div class="swiper-slide active">
+          <img src="assets/images/bannerImage.png" class="img-fluid" alt="BannerImage">
+          <div class="topBanner"></div>
+          <div class="row">
+            <div class="banner-text col-md-9">
+              <p class="banner-sub-header">Daffodil Foundation</p>
+              <h1 class="banner-header">Stand up for the <span>Deprived</span></h1>
+              <p class="banner-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
+              <div class="banner-button">
+                <a href="#" class="button d-inline-block">Join Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/images/bannerImage.png" class="img-fluid" alt="BannerImage">
+          <div class="topBanner"></div>
+          <div class="row">
+            <div class="banner-text col-md-9">
+              <p class="banner-sub-header">Daffodil Foundation</p>
+              <h1 class="banner-header">Stand up for the <span>Deprived</span></h1>
+              <p class="banner-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
+              <div class="banner-button">
+                <a href="#" class="button d-inline-block">Join Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/images/bannerImage.png" class="img-fluid" alt="BannerImage">
+          <div class="topBanner"></div>
+          <div class="row">
+            <div class="banner-text col-md-9">
+              <p class="banner-sub-header">Daffodil Foundation</p>
+              <h1 class="banner-header">Stand up for the <span>Deprived</span></h1>
+              <p class="banner-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
+              <div class="banner-button">
+                <a href="#" class="button d-inline-block">Join Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
   <!-- Banner Section End -->
 
   <!-- About Section Start -->
@@ -299,19 +311,19 @@
         <div class="count-gradient-overlay"></div>
         <div class="row count-image-text text-center">
             <div class="col">
-                <p class="count-number">04</p>
+                <p class="stat-count">04</p>
                 <p class="count-text">Projects</p>
             </div>
             <div class="col">
-                <p class="count-number">2000</p>
+                <p class="stat-count">2000</p>
                 <p class="count-text">Beneficeries</p>
             </div>
             <div class="col">
-                <p class="count-number">60</p>
+                <p class="stat-count">60</p>
                 <p class="count-text">Feilds</p>
             </div>
             <div class="col">
-                <p class="count-number">121</p>
+                <p class="stat-count">121</p>
                 <p class="count-text">Scholarship</p>
             </div>
         </div>
@@ -478,7 +490,7 @@
                       </li>
                   </ul>
               </div>
-              <div class="col-lg-3 contact-div">
+              <div class="col-lg-4 contact-div">
                   <h6>Contact with us</h6>
                   <div class="row social-contact ms-1">
                       <div class="col-md-3">
@@ -509,6 +521,8 @@
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.countdown.js"></script>
     <script src="assets/js/app.js"></script>
 
 </body>

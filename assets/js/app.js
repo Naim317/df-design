@@ -1,9 +1,18 @@
 // ForBannerSlider
-var carousel = document.getElementById('bannerCarousel');
-var bsCarousel = new bootstrap.Carousel(carousel, {
-interval: 5000, 
-pause: false, 
-ride: 'carousel' 
+var swiper = new Swiper('#slider', {
+  loop: true,
+  autoplay: false,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  renderBullet: function (index, className) {
+    return '<span class="' + className + '"></span>';
+  },
 });
 
 // ForTestimonialSlider
@@ -42,6 +51,51 @@ $(document).ready(function () {
   }
 });
 
+
+// ForCountSection
+
+
+  (function($) {
+
+    "use strict";
+
+
+
+    function count($this) {
+
+        var current = parseInt($this.html(), 10);
+
+        current = current + 1;
+
+        $this.html(++current);
+
+        if (current > $this.data('count')) {
+
+            $this.html($this.data('count'));
+
+        } else {
+
+            setTimeout(function() {
+
+                count($this)
+
+            }, 50);
+
+        }
+
+    }
+
+    $(".stat-count").each(function() {
+
+        $(this).data('count', parseInt($(this).html(), 10));
+
+        $(this).html('0');
+
+        count($(this));
+
+    });
+
+  })(jQuery);
 
 
 

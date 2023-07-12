@@ -1,4 +1,223 @@
-@media (min-width: 992px) {
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /* ForBannerSection */
+
+  .swiper-container .banner-text {
+    position: absolute;
+    top: 20px;
+    left: 8px;
+  }
+  .swiper-container .banner-text .banner-sub-header {
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 10px !important;
+  }
+  .swiper-container .banner-text .banner-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .swiper-container .banner-text .banner-description {
+    width: 290px;
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .swiper-container .banner-button {
+    margin-top: 0px; 
+  }
+  .swiper-container .banner-button .button {
+      padding: 7px 12px;
+      border-radius: 5px;
+      font-size: 8px;
+      letter-spacing: 1px;
+      line-height: 12px;
+  }
+}
+
+
+
+@media (min-width: 576px) {
+    /* ForTestimonialSection */
+    .testimonial-section .carousel-item {
+      margin-right: 0;
+      flex: 0 0 50%;
+      display: block;
+    }
+    .testimonial-section .carousel-inner {
+      display: flex;
+    }
+  }
+
+  @media (max-width: 576px) {
+    /* ForCountSection */
+    .stat-count {
+      font-size: 14px;
+      line-height: 28px;
+
+    }
+    
+    .count-text {
+      font-size: 12px;
+      line-height: 16px;
+    }
+    .volunteer-section {
+      padding: 60px 35px;
+    }
+
+    .scholarship-section {
+      padding: 60px 35px;
+    }
+
+    .testimonial-slider {
+      padding: 0px 45px 30px;
+    }
+    .testimonial-title {
+      margin-top: 60px;
+    }
+
+    .footer-section {
+      padding: 60px 60px 60px;
+    }
+
+    .event-content {
+      padding: 60px 30px 0px 60px;
+    }
+    
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* ForBannerSection */
+
+    .swiper-container .banner-text {
+      position: absolute;
+      top: 48px;
+      left: 28px;
+    }
+    .swiper-container .banner-text .banner-header {
+      margin-top: .6rem;
+      margin-bottom: .6rem;
+      font-size: 32px;
+      line-height: 32px;
+    }
+    .swiper-container .banner-text .banner-description {
+      width: 432px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .swiper-container .banner-button {
+      margin-top: 18px; 
+    }
+    .swiper-container .banner-button .button {
+        padding: 12px 18px;
+        border-radius: 7px;
+    }
+
+    .volunteer-section {
+      padding: 90px 50px;
+    }
+
+    .scholarship-section {
+      padding: 90px 50px;
+    }
+
+    .testimonial-slider {
+      padding: 0px 60px 40px;
+    }
+    .testimonial-title {
+      margin-top: 75px;
+    }
+
+    .footer-section {
+      padding: 65px 90px 65px;
+    }
+
+    .event-content {
+      padding: 80px 40px 0px 75px;
+    }
+  }
+
+
+  @media (min-width: 768px) {
+    /* ForTestimonialSection */
+    .testimonial-section .carousel-inner {
+      padding: 1em;
+    }
+    .testimonial-section .carousel-control-prev,
+    .testimonial-section .carousel-control-next {
+      width: 3em;
+      height: 3em;
+      position: absolute;
+      left: 1em;
+      top: 60%;
+      opacity: 1;
+    }
+    .testimonial-section .carousel-control-next {
+      left: 4.5em;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .testimonial-section .carousel-control-prev,
+    .testimonial-section .carousel-control-next {
+      width: 3em;
+      height: 3em;
+      top: 50%;
+      opacity: 1;
+    }
+
+    .swiper-pagination {
+      padding: 0px 25px 25px 0px;
+    }
+
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* ForBannerSection */
+
+    .swiper-container .banner-text {
+      position: absolute;
+      top: 80px;
+      left: 45px;
+    }
+    .swiper-container .banner-text .banner-header {
+      margin-bottom: 1rem;
+      font-size: 40px;
+      line-height: 42px;
+    }
+    .swiper-container .banner-text .banner-description {
+      width: 486px;
+      font-size: 12px;
+    }
+    .swiper-container .banner-button {
+      margin-top: 28px; 
+    }
+    .swiper-container .banner-button .button {
+        padding: 15px 24px;
+        border-radius: 8px;
+    }
+
+    .volunteer-section {
+      padding: 120px 75px;
+    }
+
+    .scholarship-section {
+      padding: 120px 75px;
+    }
+
+    .testimonial-slider {
+      padding: 0px 80px 50px;
+    }
+    .testimonial-title {
+      margin-top: 90px;
+    }
+
+    .event-content {
+      padding: 100px 50px 0px 90px;
+    }
+
+  }
+
+  @media (min-width: 992px) {
 
     /* ForNavbarSection */
     .navbar-expand-lg {
@@ -19,6 +238,10 @@
 
   .donate-item .nav-link {
     text-align: center;
+  }
+
+  .service-text-section {
+    padding: 60px 45px 0px 75px;
   }
 
   /* Some buttons */
@@ -47,6 +270,10 @@
     margin-bottom: 2rem;
   }
 
+  .service-button {
+    margin-bottom: 2rem;
+  }
+
   .scholarship-button .button {
     padding: 16px 20px;
     border-radius: 10px;
@@ -54,56 +281,8 @@
     margin-bottom: 2rem;
     
   }
+
 }
-
-
-
-@media (min-width: 576px) {
-    /* ForTestimonialSection */
-    .testimonial-section .carousel-item {
-      margin-right: 0;
-      flex: 0 0 50%;
-      display: block;
-    }
-    .testimonial-section .carousel-inner {
-      display: flex;
-    }
-  }
-
-  @media (max-width: 576px) {
-    /* ForCountSection */
-    .count-number {
-      font-size: 14px;
-      line-height: 28px;
-
-    }
-    
-    .count-text {
-      font-size: 12px;
-      line-height: 16px;
-    }
-    
-  }
-
-
-  @media (min-width: 768px) {
-    /* ForTestimonialSection */
-    .testimonial-section .carousel-inner {
-      padding: 1em;
-    }
-    .testimonial-section .carousel-control-prev,
-    .testimonial-section .carousel-control-next {
-      width: 3em;
-      height: 3em;
-      position: absolute;
-      left: 1em;
-      top: 60%;
-      opacity: 1;
-    }
-    .testimonial-section .carousel-control-next {
-      left: 4.5em;
-    }
-  }
 
 
   @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -118,119 +297,37 @@
 
     /* ForBannerSection */
 
-    .banner-section .banner-text {
+    .swiper-container .banner-text {
       position: absolute;
       top: 112px;
       left: 68px;
     }
-    .banner-section .banner-text .banner-header {
+    .swiper-container .banner-text .banner-header {
       margin-bottom: 1.3rem;
       font-size: 52px;
       line-height: 60px;
     }
-    .banner-section .banner-text .banner-description {
+    .swiper-container .banner-text .banner-description {
       width: 543px;
       font-size: 15px;
     }
-    .banner-section .banner-button {
+    .swiper-container .banner-button {
       margin-top: 42px; 
     }
-    .banner-section .banner-button .button {
+    .swiper-container .banner-button .button {
         padding: 18px 32px;
         border-radius: 10px;
     }
 
   }
 
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    /* ForBannerSection */
-
-    .banner-section .banner-text {
-      position: absolute;
-      top: 80px;
-      left: 45px;
-    }
-    .banner-section .banner-text .banner-header {
-      margin-bottom: 1rem;
-      font-size: 40px;
-      line-height: 42px;
-    }
-    .banner-section .banner-text .banner-description {
-      width: 486px;
-      font-size: 12px;
-    }
-    .banner-section .banner-button {
-      margin-top: 28px; 
-    }
-    .banner-section .banner-button .button {
-        padding: 15px 24px;
-        border-radius: 8px;
-    }
+  
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    
   }
+  
 
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    /* ForBannerSection */
-
-    .banner-section .banner-text {
-      position: absolute;
-      top: 48px;
-      left: 28px;
-    }
-    .banner-section .banner-text .banner-header {
-      margin-top: .6rem;
-      margin-bottom: .6rem;
-      font-size: 32px;
-      line-height: 32px;
-    }
-    .banner-section .banner-text .banner-description {
-      width: 432px;
-      font-size: 12px;
-      line-height: 18px;
-    }
-    .banner-section .banner-button {
-      margin-top: 18px; 
-    }
-    .banner-section .banner-button .button {
-        padding: 12px 18px;
-        border-radius: 7px;
-    }
-  }
-
-  @media (min-width: 320px) and (max-width: 575.98px) {
-    /* ForBannerSection */
-
-    .banner-section .banner-text {
-      position: absolute;
-      top: 20px;
-      left: 8px;
-    }
-    .banner-section .banner-text .banner-sub-header {
-      font-size: 10px;
-      letter-spacing: 1px;
-      margin-bottom: 10px !important;
-    }
-    .banner-section .banner-text .banner-header {
-      margin-top: 0px;
-      margin-bottom: 0px;
-      font-size: 18px;
-      line-height: 24px;
-    }
-    .banner-section .banner-text .banner-description {
-      width: 290px;
-      font-size: 8px;
-      line-height: 12px;
-    }
-    .banner-section .banner-button {
-      margin-top: 0px; 
-    }
-    .banner-section .banner-button .button {
-        padding: 7px 12px;
-        border-radius: 5px;
-        font-size: 8px;
-        letter-spacing: 1px;
-        line-height: 12px;
-    }
-  }
+  
 
 
   /* ******Some Extra MQs***** */
